@@ -1,0 +1,136 @@
+.App {
+  font-family: "Arial";
+}
+
+.card,
+.cart {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+#shop {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.nav_link {
+  color: #212121;
+  font-weight: "bold";
+}
+
+.nav_link-kid {
+  color: #212121;
+  font-weight: "bold";
+  pointer-events: none;
+}
+
+.nav_link:hover {
+  color: red;
+  background-color: white;
+}
+
+.nav_link_2 {
+  color: #212121;
+  background-color: #bdbdbd;
+  font-weight: "bold";
+  pointer-events: none;
+}
+
+.nav_link_2:hover {
+  color: red;
+  background-color: #bdbdbd;
+}
+
+.nav_link_3 {
+  color: white;
+  background-color: #9e9e9e;
+  font-weight: "bold";
+  pointer-events: none;
+}
+
+.nav_link_3:hover {
+  color: red;
+  background-color: #9e9e9e;
+}
+
+.nav_link_4 {
+  color: white;
+  background-color: #424242;
+  font-weight: "bold";
+}
+
+.footer {
+  flex: 1;
+  flex-direction: "row";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.nav_link_4:hover {
+  color: red;
+  background-color: #424242;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel_radio {
+  align-self: center;
+}
+
+.radio {
+  display: table;
+  margin: 0 auto;
+  margin-top: 1vw;
+}
+
+.breadcrumbs {
+  background-color: "white";
+  display: flex;
+  justify-content: center;
+}
+
+.image-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.delivery-list {
+  flex-direction: "row";
+}
+
+ul.delivery-list {
+  list-style-type: "square";
+}
+
+em {
+  font-size: 0.9em;
+}
+
+.brand-logo {
+  margin-top: 7px;
+  margin-left: 7%;
+}
+
+.item-name {
+  font-size: 10px;
+  color: grey;
+  text-decoration: underline;
+  text-align: left;
+  margin: 2;
+}
