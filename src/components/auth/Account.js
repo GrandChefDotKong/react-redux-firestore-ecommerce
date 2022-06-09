@@ -1,11 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar } from "@material-ui/core";
-import { Tabs } from "@material-ui/core";
-import { Tab } from "@material-ui/core";
-import Typography from "@material-ui/core/Typography";
-import { Box } from "@material-ui/core";
+import { AppBar, Tabs, Tab, Typography, Box } from "@material-ui/core";
 import Info from "./Info";
 import OrderHistory from "./OrderHistory";
 import { Redirect } from "react-router-dom";

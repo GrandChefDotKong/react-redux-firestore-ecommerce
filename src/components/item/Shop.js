@@ -1,11 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar } from "@material-ui/core";
-import { Tabs } from "@material-ui/core";
-import { Tab } from "@material-ui/core";
-import Typography from "@material-ui/core/Typography";
-import { Box } from "@material-ui/core";
+import { AppBar, Tabs, Tab, Box } from "@material-ui/core";
 import { connect } from "react-redux";
 import ShopTab from "./ShopTab";
 
@@ -22,7 +18,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box p={3}>
-          <Typography>{children}</Typography>
+          <div>{children}</div>
         </Box>
       )}
     </div>

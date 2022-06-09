@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import { Grid } from "@material-ui/core";
 import { IconButton } from "@material-ui/core";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
-import { Radio } from "@material-ui/core";
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import Footer from "../layout/Footer";
-import { RadioGroup } from "@material-ui/core";
-import { FormControlLabel } from "@material-ui/core";
-import { FormControl } from "@material-ui/core";
+import { Radio, RadioGroup, FormControlLabel, Grid, FormControl } from "@material-ui/core";
 
 class Dashboard extends Component {
   state = {
@@ -32,7 +28,6 @@ class Dashboard extends Component {
   };
 
   render() {
-    console.log(this.state.carrouselIndex);
     return (
       <div className="page-container">
         <img

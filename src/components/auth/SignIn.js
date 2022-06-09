@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { signIn } from "../../store/actions/authActions";
 import { NavLink } from "react-router-dom";
-import Grid from "@material-ui/core/Grid";
+import { Grid } from "@material-ui/core";
 import { Redirect } from "react-router-dom";
 
 class SignIn extends Component {

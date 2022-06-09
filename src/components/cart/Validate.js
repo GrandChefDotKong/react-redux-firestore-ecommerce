@@ -1,14 +1,8 @@
 import React from "react";
-import { Stepper } from "@material-ui/core";
-import { Step } from "@material-ui/core";
-import { StepLabel } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
+import { Stepper, Step, StepLabel, Typography, Container, Button } from "@material-ui/core";
 import Delivery from "./Delivery";
 import Recap from "./Recap";
 import Payment from "./Payment";
-import Container from "@material-ui/core/Container";
-
 import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { firestoreConnect } from "react-redux-firebase";
@@ -68,7 +62,6 @@ const Validate = (props) => {
         <div>
           {activeStep === steps.length ? (
             <div>
-              <Typography>
                 <Recap />
                 <Button
                   variant="contained"
@@ -79,7 +72,6 @@ const Validate = (props) => {
                 >
                   注文を確認する
                 </Button>
-              </Typography>
             </div>
           ) : (
             <div>

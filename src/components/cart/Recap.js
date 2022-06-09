@@ -1,17 +1,9 @@
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableContainer from "@material-ui/core/TableContainer";
-import TableHead from "@material-ui/core/TableHead";
-import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
 import React from "react";
-
+import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, TableHead, Container } from '@material-ui/core';
 import { firestoreConnect } from "react-redux-firebase";
 import { compose } from "redux";
 import { connect } from "react-redux";
 import { deleteOrder, updateQuantity } from "../../store/actions/ordersActions";
-import Container from "@material-ui/core/Container";
 
 const Recap = props => {
   return (

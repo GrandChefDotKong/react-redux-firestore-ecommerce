@@ -17,7 +17,6 @@ class ShopTab extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  console.log(ownProps);
   return {
     products: state.firestore.ordered.products,
     genre: ownProps.genre,

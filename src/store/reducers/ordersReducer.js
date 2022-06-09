@@ -1,4 +1,3 @@
-import { number } from "prop-types";
 
 const initState = {
   allOrders: [],

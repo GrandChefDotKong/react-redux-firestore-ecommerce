@@ -2,18 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { updateDelivery } from "../../store/actions/ordersActions";
 
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableContainer from "@material-ui/core/TableContainer";
-import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
-import { Radio } from "@material-ui/core";
-import { RadioGroup } from "@material-ui/core";
-import { FormControlLabel } from "@material-ui/core";
-import { FormControl } from "@material-ui/core";
-import { FormLabel } from "@material-ui/core";
-import { Grid } from "@material-ui/core";
+import { Table, TableBody, TableCell, TableContainer, TableRow, Paper, Radio, RadioGroup, FormControlLabel, FormControl, FormLabel, Grid } from '@material-ui/core';
 
 const Delivery = (props) => {
   const [value, setValue] = React.useState(props.delivery);
